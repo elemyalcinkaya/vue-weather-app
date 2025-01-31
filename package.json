@@ -48,5 +48,11 @@
     "last 2 versions",
     "not dead",
     "not ie 11"
-  ]
-}
+  ],
+  "main": "public/main.js",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "electron": "electron ."
+  }
+}  
